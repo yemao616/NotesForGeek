@@ -34,7 +34,10 @@ reference: https://www.digitalocean.com/community/tutorials/how-to-install-anaco
 
 
 ## Jupyter notebook on server
+
+reference: https://www.digitalocean.com/community/tutorials/how-to-install-run-connect-to-jupyter-notebook-on-remote-server
    - Set up a SSL tunnel: `ssh -L port_number:localhost:8888 me@remote.address`  
    - Switch to my_env: `source activate my_env`  
    - Start Jupyter: `$ jupyter notebook`  
    - Visit the server by: http://localhost:port_number
+
